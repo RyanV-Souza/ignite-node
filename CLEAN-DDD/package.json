@@ -1,7 +1,7 @@
 {
-  "name": "ignite-node",
+  "name": "clean-ddd",
   "version": "1.0.0",
-  "description": "",
+  "description": "Design dirigdo à domínio",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,7 +9,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "volta": {
-    "node": "20.10.0"
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "typescript": "^5.3.3"
   }
 }
