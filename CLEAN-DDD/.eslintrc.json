@@ -1,0 +1,20 @@
+{
+  "extends": [
+    "@rocketseat/eslint-config/node",
+    "plugin:vitest-globals/recommended"
+  ],
+  "rules": {
+    "prettier/prettier": [
+      "warn",
+      {
+        "endOfLine": "crlf"
+      }
+    ],
+    "no-useless-constructor": "off",
+    "no-unused-vars": "off",
+    "typescript-eslint/no-unused-vars": "off"
+  },
+  "env": {
+    "vitest-globals/env": true
+  }
+}

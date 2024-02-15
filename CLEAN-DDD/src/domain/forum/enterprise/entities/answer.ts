@@ -44,13 +44,16 @@ export class Answer extends Entity<AnswerProps> {
     this.props.updatedAt = new Date();
   }
 
-  static create(props: Optional<AnswerProps, "createdAt">, id?: UniqueEntityID) {
+  static create(
+    props: Optional<AnswerProps, "createdAt">,
+    id?: UniqueEntityID,
+  ) {
     const answer = new Answer(
       {
         ...props,
         createdAt: new Date(),
       },
-      id
+      id,
     );
 
     return answer;
